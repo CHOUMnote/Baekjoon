@@ -1,0 +1,1 @@
+solution=lambda n:str(int("".join(sorted(list(map(str,n)),key=lambda x:-int((x*4)[:4])))))
